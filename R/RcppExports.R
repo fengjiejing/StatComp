@@ -16,6 +16,6 @@
 #' }
 #' @export
 rw_MetropolisC <- function(sigma, x0, N) {
-    .Call('_StatComp_rw_MetropolisC', PACKAGE = 'StatComp', sigma, x0, N)
+    .Call('_StatComp20097_rw_MetropolisC', PACKAGE = 'StatComp20097', sigma, x0, N)
 }
 
